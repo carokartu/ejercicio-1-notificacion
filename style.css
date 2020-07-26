@@ -5,12 +5,23 @@ body
 
 .error 
 {
-width: 300px;
+width: 200px;
 height: auto ;
 }
 
-.caja
+.caja-uno
 {
+
+        color: #2e2e31;
+        padding: 40px 20px;
+        background-color  #fafafa;
+        border: 1px solid #dddfe5;
+        border-radius: 8px;
+        width: 260px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 30px;
+        
 
 
 }
@@ -21,4 +32,9 @@ height: auto ;
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+}
+
+a
+{
+    text-decoration: none;
 }
