@@ -1,11 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@700&display=swap');
+
 body 
 {
-    /* background-color:  #9A9FAB */
+    font-family: 'Noto Serif JP', serif;
+    font-size: small ;
+    background-color:#B4C0D8;
+   
 }
 
 .error 
 {
-width: 200px;
+width: 300px;
 height: auto ;
 }
 
@@ -14,10 +19,11 @@ height: auto ;
 
         color: #2e2e31;
         padding: 40px 20px;
-        background-color  #fafafa;
-        border: 1px solid #dddfe5;
-        border-radius: 8px;
-        width: 260px;
+        background-color :#FBFBFB ;
+        border: 1px solid : #B4C0D8;
+        border-radius: 10px;
+        width: 300px;
+        height : auto ;
         margin-left: auto;
         margin-right: auto;
         padding: 30px;
@@ -31,7 +37,7 @@ height: auto ;
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
-    text-align: center;
+    text-align: left;
 }
 
 a
